@@ -1,8 +1,4 @@
-(ns koans.09-higher-order-function(let [[first-name last-name & aliases(let [[first-name last-name & aliases]
-           (list "Rich" "Hickey" "The Clojurer" "Go Time" "Lambda Guru")]
-       (cons (str first-name last-name) aliases))]
-           (list "Rich" "Hickey" "The Clojurer" "Go Time" "Lambda Guru")]
-       (cons (str first-name last-name) aliases))s
+(ns koans.09-higher-order-functions
   (:require [koan-engine.core :refer :all]))
 
 (meditations
